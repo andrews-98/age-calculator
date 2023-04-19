@@ -1,0 +1,56 @@
+.form {
+    width: 100%;
+}
+
+.form__filds {
+    max-width: 28rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__item {
+    width: 8rem;
+}
+
+.form__item label {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.form__input {
+    width: 100%;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    padding: 10px 15px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.form__input:focus {
+    border: 1px solid hsl(259, 100%, 65%);
+    outline: none;
+}
+
+.invalid-input {
+    border-color: red;
+}
+
+.invalid-label{
+    color: red;
+}
+
+.invalid-input:focus {
+    border: 1px solid red;
+    outline: none;
+}
+
+.form_item input::-webkit-outer-spin-button,
+.form__item input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.invalid-feedback {
+    font-size: 0.7rem;
+    color: red;
+}
